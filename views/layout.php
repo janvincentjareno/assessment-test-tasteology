@@ -22,7 +22,7 @@
   <title>Tasteology</title>
 </head>
 <body>
-  Test
+  
   <!-- Featured Article Section -->
   <?php include __DIR__ . '/featured.php'; ?>
 

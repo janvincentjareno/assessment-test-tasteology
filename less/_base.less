@@ -32,3 +32,39 @@ body {
   background: @body-bg;
   color: @body-color;
 }
+
+.page-section {
+  padding: 30px 0;
+
+  @media @md-min {
+    padding: 60px 0; 
+  }
+  @media @lg-min {
+    padding: 120px 0; 
+  }
+}
+
+.container {
+  max-width: 1176px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+
+  @media @xxl-min {
+    // max-width: 1400px;
+  }
+}
+
+.stretched-link {
+
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+}

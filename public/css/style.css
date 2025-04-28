@@ -95,6 +95,144 @@ body {
   background: #0e1414;
   color: #fff;
 }
+.page-section {
+  padding: 30px 0;
+}
+@media  (min-width: 768px) {
+  .page-section {
+    padding: 60px 0;
+  }
+}
+@media  (min-width: 992px) {
+  .page-section {
+    padding: 120px 0;
+  }
+}
+.container {
+  max-width: 1176px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+.stretched-link::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+@media  (min-width: 992px) {
+  .featured {
+    display: flex;
+    align-items: center;
+  }
+}
+.featured__images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-flow: dense;
+  grid-gap: 10px;
+  margin-bottom: 30px;
+}
+@media  (min-width: 992px) {
+  .featured__images {
+    margin-bottom: 0;
+    width: 66.67%;
+    padding-right: 15px;
+  }
+}
+.featured__image-left,
+.featured__image-right {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+.featured__image-left img,
+.featured__image-right img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+.featured__image-left {
+  grid-column: 1 / span 2;
+}
+@media  (min-width: 768px) {
+  .featured__image-left {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 2;
+  }
+}
+@media  (min-width: 768px) {
+  .featured__image-right {
+    grid-column: 2 / span 1;
+  }
+}
+.featured__content {
+  width: 100%;
+  position: relative;
+}
+@media  (min-width: 992px) {
+  .featured__content {
+    width: 33.33%;
+    padding-left: 15px;
+  }
+}
+.featured__title {
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+  font-size: 1.875rem;
+  line-height: 1.1;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #fff;
+}
+.featured__excerpt {
+  margin-bottom: 30px;
+}
+.featured__excerpt p {
+  margin: 0;
+  font-size: 1.3125rem;
+  line-height: 30px;
+  font-weight: 300;
+}
+@media  (min-width: 992px) {
+  .featured__excerpt p {
+    max-height: 360px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 12;
+    text-overflow: ellipsis;
+  }
+}
+.featured__callout-subheading {
+  color: #cf1430;
+  font-size: 0.9375rem;
+  line-height: 1.4;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.featured__callout p {
+  margin-bottom: 0;
+  font-size: 1.3125rem;
+  line-height: 1.42857;
+  font-weight: 700;
+}
+.featured__callout-link {
+  display: block;
+  height: 0;
+  width: 0;
+  font-size: 0;
+}
 .test {
   margin: 0;
 }
