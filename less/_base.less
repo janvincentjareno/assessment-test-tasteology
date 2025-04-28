@@ -42,6 +42,28 @@ body {
   @media @lg-min {
     padding: 120px 0; 
   }
+
+  &__header {
+    display: flex;
+
+    &.center {
+      justify-content: center;
+    }
+  }
+
+  
+  &__heading {
+    display: inline-flex;
+    width: auto;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+    font-size: 1.875rem;
+    line-height: 1.1;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid @white;
+  }
 }
 
 .container {
