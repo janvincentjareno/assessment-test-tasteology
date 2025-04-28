@@ -1,0 +1,16 @@
+//
+// MIXINS
+//
+
+.clearfix() {
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+.transition(@prop: all, @time: 0.3s, @ease: ease) {
+    transition: @prop @time @ease;
+}
+  

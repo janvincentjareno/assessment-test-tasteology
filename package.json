@@ -1,0 +1,25 @@
+{
+  "name": "tasteology",
+  "version": "1.0.0",
+  "description": "A simple PHP MVC project simulating CMS functionality. Two dynamic content blocks, responsive, with JS interactivity (click tracking and image modals).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janvincentjareno/assessment-test-tasteology.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/janvincentjareno/assessment-test-tasteology/issues"
+  },
+  "homepage": "https://github.com/janvincentjareno/assessment-test-tasteology#readme",
+  "devDependencies": {
+    "grunt": "^1.6.1",
+    "grunt-contrib-less": "^3.0.0",
+    "grunt-contrib-watch": "^1.1.0"
+  }
+}
