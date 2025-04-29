@@ -18,7 +18,7 @@ class HomeController
     public function index()
     {
         $featured     = $this->contentModel->getFeatured();
-        $relatedItems = $this->contentModel->getRelatedItems();
+        $related      = $this->contentModel->getRelatedItems();
         include __DIR__ . '/../views/layout.php';
     }
 }

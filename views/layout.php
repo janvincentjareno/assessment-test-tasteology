@@ -29,6 +29,15 @@
   <!-- Related Articles Section -->
   <?php include __DIR__ . '/related.php'; ?>
 
+  <!-- Modal for Image Preview -->
+  <div id="img-modal" class="modal hidden">
+    <div class="modal-overlay"></div>
+    <div class="modal-content">
+      <button id="modal-close">&times;</button>
+      <img id="modal-img" src="" alt="Expanded view">
+    </div>
+  </div>
+
   <!-- JS -->
   <script src="/public/js/main.js"></script>
 </body>

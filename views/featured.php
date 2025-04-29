@@ -3,23 +3,29 @@
     <article class="featured">
       <div class="featured__images">
         <div class="featured__image-left">
-          <img src="/public/images/featured-left.webp" alt="Featured Article Image" class="featured__image--large">
+          <a href="#" data-modalimg="<?= htmlspecialchars($featured['left']) ?>" class="img-modal">
+            <img src="<?= htmlspecialchars($featured['left']) ?>" alt="<?= htmlspecialchars($featured['left-alt']) ?>" class="featured__image--large">
+          </a>  
         </div>
         <div class="featured__image-right top">
-          <img src="/public/images/featured-right-top.webp" alt="Featured Article Image" class="featured__image--small">
+          <a href="#" data-modalimg="<?= htmlspecialchars($featured['right-top']) ?>" class="img-modal">
+            <img src="<?= htmlspecialchars($featured['right-top']) ?>" alt="<?= htmlspecialchars($featured['right-top']) ?>" class="featured__image--small">
+          </a>  
         </div>
         <div class="featured__image-right bottom">
-          <img src="/public/images/featured-right-bottom.webp" alt="Featured Article Image" class="featured__image--small">
+          <a href="#" data-modalimg="<?= htmlspecialchars($featured['right-bottom']) ?>" class="img-modal">
+            <img src="<?= htmlspecialchars($featured['right-bottom']) ?>" alt="<?= htmlspecialchars($featured['right-bottom']) ?>" class="featured__image--small">
+          </a>  
         </div>
       </div>
       <div class="featured__content">
-        <h1 class="featured__title">What does cookiing mean?</h1>
+        <h1 class="featured__title"><?= htmlspecialchars($featured['title']) ?></h1>
         <div class="featured__excerpt">
-          <p>Is it simply applying heat to a food product? A way of making certain food safe to eat? Or a way to create flavour and make food more appealing? This is just part of what Hervé This, the father of molecular gastronomy, has dedicated his life to finding out. We spoke to him to find out what his experiments have told him. And in the process even discovered the secret to cooking the perfect egg...</p>
+          <p><?= htmlspecialchars($featured['body']) ?></p>
         </div>
         <div class="featured__callout">
-          <h5 class="featured__callout-subheading">The Perfect Egg</h5>
-          <p>Keep water between 67 and 68°C for a flavourful, tender yolk</p>
+          <h5 class="featured__callout-subheading"><?= htmlspecialchars($featured['callout-label']) ?></h5>
+          <p><?= htmlspecialchars($featured['callout-text']) ?></p>
           <a href="#" class="featured__callout-link stretched-link">Read More</a>
         </div>
       </div>

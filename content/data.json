@@ -1,0 +1,34 @@
+{
+  "featured": {
+    "left": "/public/images/featured-left.webp",
+    "left-alt": "Featured Article Image",
+    "right-top": "/public/images/featured-right-top.webp",
+    "right-top-alt": "Featured Article Image",
+    "right-bottom": "/public/images/featured-right-bottom.webp",
+    "right-bottom-alt": "Featured Article Image",
+    "title": "What does cookiing mean?",
+    "body": "Is it simply applying heat to a food product? A way of making certain food safe to eat? Or a way to create flavour and make food more appealing? This is just part of what Hervé This, the father of molecular gastronomy, has dedicated his life to finding out. We spoke to him to find out what his experiments have told him. And in the process even discovered the secret to cooking the perfect egg...",
+    "callout-label": "The Perfect Egg",
+    "callout-text": "Keep water between 67 and 68°C for a flavourful, tender yolk"
+  },
+  "related": {
+    "heading": "Taste the Colours",
+    "cards": [
+      {
+        "image": "/public/images/colour-red.webp",
+        "title": "Red",
+        "excerpt": "Red foods remind us of berries and soft fruits, so we anticipate a sweet taste."
+      },
+      {
+        "image": "/public/images/colour-green.webp",
+        "title": "Green",
+        "excerpt": "Fresh, zingy green colours are reminiscent of unripe fruit, promising sour or acid flavours"
+      },
+      {
+        "image": "/public/images/colour-white.webp",
+        "title": "White",
+        "excerpt": "White foods evoke memories of salt and salty flavours, driving the expectation of a savoury treat."
+      }
+    ]
+  }
+}

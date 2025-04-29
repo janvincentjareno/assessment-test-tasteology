@@ -7,8 +7,8 @@ class ContentModel
 
     public function __construct()
     {
-        //$json = file_get_contents(__DIR__ . '/../content/data.json');
-        //$this->data = json_decode($json, true);
+        $json = file_get_contents(__DIR__ . '/../content/data.json');
+        $this->data = json_decode($json, true);
     }
 
     public function getFeatured()
