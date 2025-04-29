@@ -343,6 +343,7 @@ body {
   padding: 0;
   overflow: hidden;
   display: flex;
+  justify-content: center;
 }
 .modal .modal-content img {
   width: auto;
