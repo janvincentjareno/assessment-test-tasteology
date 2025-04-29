@@ -17,7 +17,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 
   <!-- Compiled CSS -->
-  <link rel="stylesheet" href="/public/css/style.css">
+  <link rel="stylesheet" href="/public/css/style.css?v=1.0.1">
 
   <title>Tasteology</title>
 </head>
@@ -39,6 +39,6 @@
   </div>
 
   <!-- JS -->
-  <script src="/public/js/main.js"></script>
+  <script src="/public/js/main.js?v=1.0.0"></script>
 </body>
 </html>
